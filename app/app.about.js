@@ -9,28 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var Hero = (function () {
-    function Hero() {
+var AboutComponent = (function () {
+    function AboutComponent() {
+        this.title = 'About';
     }
-    return Hero;
-}());
-exports.Hero = Hero;
-var AppComponent = (function () {
-    function AppComponent() {
-        this.title = 'D4n D4n';
-        this.hero = {
-            id: 1,
-            name: 'Windstorm'
-        };
-    }
-    AppComponent = __decorate([
+    AboutComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            templateUrl: 'app/nav.html'
+            selector: 'my-about',
+            templateUrl: 'app/about.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], AboutComponent);
+    return AboutComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.AboutComponent = AboutComponent;
+//# sourceMappingURL=app.about.js.map
